@@ -2,29 +2,44 @@
 permalink: /
 title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a first-year PhD student in Electrical and Computer Engineering at the University of Texas at Austin, working in the Human Signals Lab advised by Prof. [Edison Thomaz](https://users.ece.utexas.edu/~ethomaz/). My research focuses on human-centered computing, wearable devices, and embedded systems. Specifically, I develop wearable sensing systems and machine learning models to characterize human behaviors. Previously, I received my Master's degree from Northwestern University, where I was advised by Prof. [Nabil Alshurafa](https://www.thehabitslab.com/).
+<div class="about-page">
+  <p class="about-page__lead">I am a PhD student in Electrical and Computer Engineering at The University of Texas at Austin, advised by Prof. <a href="https://users.ece.utexas.edu/~ethomaz/">Edison Thomaz</a> in the Human Signals Lab.</p>
 
-## Education
+  <p>My research sits at the intersection of wearable sensing, embedded machine learning, and human-centered computing. I build practical sensing systems that can understand everyday behavior and support health applications outside the laboratory.</p>
 
-**The University of Texas at Austin** <span style="float: right;">Sept 2025 - Present</span>
-* Ph.D. student in Electrical Engineering
-* *Austin, TX*
+  <p>Before joining UT Austin, I received my master's degree in Computer Engineering from Northwestern University, where I worked with Prof. <a href="https://www.thehabitslab.com/">Nabil Alshurafa</a>.</p>
 
-**Northwestern University** <span style="float: right;">2023 - 2025</span>
-* M.S. in Computer Engineering
-* *Evanston, IL*
-
-**Shandong University** <span style="float: right;">2019 - 2023</span>
-* B.Eng. in Electrical Engineering and Automation
-* *Jinan, China*
-
-## Publications
-
-**Self-Sustaining Wearable UV Sensor for Passive and Continuous Sun Protection**
-<br>Chenghong Lin, **Yuxin Du**, Neel Pendse, Glenn Fernandes, Nabil Alshurafa, Mahdi Pedram
-<br>*IEEE International Conference on Wearable and Implantable Body Sensor Networks (BSN)*, 2024
+  <section class="about-section" aria-labelledby="education">
+    <h2 id="education">Education</h2>
+    <div class="education-list">
+      <article>
+        <div>
+          <h3>The University of Texas at Austin</h3>
+          <p>PhD student in Electrical and Computer Engineering</p>
+          <p class="education-list__detail">Advisor: Prof. Edison Thomaz</p>
+        </div>
+        <p class="education-list__date">2025 – Present</p>
+      </article>
+      <article>
+        <div>
+          <h3>Northwestern University</h3>
+          <p>MS in Computer Engineering</p>
+          <p class="education-list__detail">Advisor: Prof. Nabil Alshurafa</p>
+        </div>
+        <p class="education-list__date">2023 – 2025</p>
+      </article>
+      <article>
+        <div>
+          <h3>Shandong University</h3>
+          <p>BEng in Electrical Engineering and Automation</p>
+        </div>
+        <p class="education-list__date">2019 – 2023</p>
+      </article>
+    </div>
+  </section>
+</div>
